@@ -1,6 +1,6 @@
 package ua.hillel.lozovii.homeworks.hw4;
 
-public class l4Math {
+public class L4Math {
     public static void main(String[] args) {
         System.out.println(Math.PI);
 

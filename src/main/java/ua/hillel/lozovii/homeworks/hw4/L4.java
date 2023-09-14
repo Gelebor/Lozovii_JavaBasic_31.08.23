@@ -1,6 +1,6 @@
 package ua.hillel.lozovii.homeworks.hw4;
 
-public class l4 {
+public class L4 {
     public static void main(String[] args) {
 //        int a = 10;
 //        int b = 2;

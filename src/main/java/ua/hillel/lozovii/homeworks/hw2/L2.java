@@ -1,6 +1,6 @@
 package ua.hillel.lozovii.homeworks.hw2;
 
-public class l2 {
+public class L2 {
     public static void main(String[] args) {
 //        byte agePerson;
 //        agePerson = 15;
