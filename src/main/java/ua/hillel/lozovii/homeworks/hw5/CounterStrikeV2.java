@@ -109,9 +109,11 @@ public class CounterStrikeV2 {
         System.out.println("\nThe negative count means it is a friendly-fire.");
         System.out.println(team1Name + ": " + team1KillCount + "\n" + team2Name + ": " + team2KillCount);
         if (team1KillCount > team2KillCount) {
-            System.out.println("Team " + team1Name + " won! Point difference in favor of team " + team1Name + " is " + Math.abs((double) Math.round((team1KillCount - team2KillCount) * 100) / 100));
+//            System.out.println("Team " + team1Name + " won! Point difference in favor of team " + team1Name + " is " + Math.abs((double) Math.round((team1KillCount - team2KillCount) * 100) / 100));
+            System.out.println("Перемогла команда " + team1Name + ", набрала " + (double) (Math.round(team1KillCount * 100) / 100) + " очків");
         } else if (team1KillCount < team2KillCount) {
-            System.out.println("Team " + team2Name + " won! Point difference in favor of team " + team2Name + " is " + Math.abs((double) Math.round((team2KillCount - team1KillCount) * 100) / 100));
+//            System.out.println("Team " + team2Name + " won! Point difference in favor of team " + team2Name + " is " + Math.abs((double) Math.round((team2KillCount - team1KillCount) * 100) / 100));
+            System.out.println("Перемогла команда " + team2Name + ", набрала " + (double) (Math.round(team2KillCount * 100) / 100) + " очків");
         } else if (team1KillCount == team2KillCount) {
             System.out.println("The teams have equal points. It's a draw!");
         }
