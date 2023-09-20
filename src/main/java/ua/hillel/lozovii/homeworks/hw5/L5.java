@@ -5,6 +5,47 @@ import java.util.Scanner;
 public class L5 {
     public static void main(String[] args) {
 
+//        >       //more
+//        >=      //more + include
+//        <       //less
+//        <=      //less + include
+//        ==      //equal
+//        !=      //not equal
+
+//        int a = 5;
+//        int b = 10;
+
+//        System.out.println(a > b);
+//        System.out.println(a >= b);
+//        System.out.println(a < b);
+//        System.out.println(a <= b);
+//        System.out.println(a == b);
+//        System.out.println(a != b);
+//
+//        System.out.println(!true);
+//        System.out.println(!false);
+
+//        boolean res = a != b;
+//        System.out.println(res);
+
+//        String str1 = "Hello";      //str1 == str2 because "Hello" in similar data cell
+//        String str2 = "Hello";
+//        String str3 = new String("Hello");  //create in new data cell
+//
+//        System.out.println(str1 == str2);
+//        System.out.println(str1 == str3);   //not equal data cells
+//
+//        System.out.println(str1.equals(str2));
+//        System.out.println(str1.equals(str3));  //check values in data cells
+
+        //=======================
+//if use || (or) and at least 1 condition is "true" - then out "true"
+//if use && (and) and at least 1 condition is "false" - then out "false"
+// conditions reading from left to right
+
+//        System.out.println(a < b && b > a || b == a);
+        // true && true || false - true || false - true
+        //=======================
 
 //        int a = 5;
 //        int b = 10;
@@ -134,23 +175,23 @@ public class L5 {
 //        System.out.println("str = " + str);
 
         //============================================
-//        int number = sc.nextInt();
-//        System.out.println("number = " + number);
-//        sc.nextLine();                            // clear buffer, because scanner read "/n" and output next operation
-//
-//        String str = sc.nextLine();
-//        System.out.println("str = " + str);
+        int number = sc.nextInt();
+        System.out.println("number = " + number);
+        sc.nextLine();                            // clear buffer, because scanner read "/n" and output next operation
+
+        String str = sc.nextLine();
+        System.out.println("str = " + str);
         //============================================
 
-        System.out.println("Please enter number: ");
-        int number = 0;
-
-        if (sc.hasNextInt()) {
-            number = sc.nextInt();
-            System.out.println("number = " + number);
-        } else {
-            System.out.println("Wrong data");
-            System.exit(0);                     // safe completing program
-        }
+//        System.out.println("Please enter number: ");
+//        int number = 0;
+//
+//        if (sc.hasNextInt()) {
+//            number = sc.nextInt();
+//            System.out.println("number = " + number);
+//        } else {
+//            System.out.println("Wrong data");
+//            System.exit(0);                     // safe completing program
+//        }
     }
 }
