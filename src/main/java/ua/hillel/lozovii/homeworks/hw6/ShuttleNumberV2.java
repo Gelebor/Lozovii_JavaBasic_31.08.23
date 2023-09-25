@@ -2,7 +2,7 @@ package ua.hillel.lozovii.homeworks.hw6;
 
 public class ShuttleNumberV2 {
     public static void main(String[] args) {
-        int startNum = 0;
+        int startNum = 1;
         int shAmount = 100;
 
         int badDigit1 = 4;
