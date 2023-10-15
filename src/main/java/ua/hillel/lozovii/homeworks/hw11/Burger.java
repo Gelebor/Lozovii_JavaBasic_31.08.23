@@ -44,7 +44,8 @@ public class Burger {
         System.out.println("\nСклад: булочка, м'ясо (х2), сир, зелень, майонез.");
     }
 
-    String burgerInfo() {
+    @Override
+    public String toString() {
         if (doubleMeat) {
             return "Ви обрали бургер із подвійним м'ясом.";
         } else if (!mayonnaise) {
