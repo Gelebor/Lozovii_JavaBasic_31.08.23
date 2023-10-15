@@ -45,9 +45,9 @@ public class Burger {
     }
 
     String burgerInfo() {
-        if (doubleMeat == true) {
+        if (doubleMeat) {
             return "Ви обрали бургер із подвійним м'ясом.";
-        } else if (mayonnaise == false) {
+        } else if (!mayonnaise) {
             return "Ви обрали дієтичний бургер (без майонезу).";
         } else {
             return "Ви обрали звичайний бургер (усі компоненти).";
