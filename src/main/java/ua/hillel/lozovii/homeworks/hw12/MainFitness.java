@@ -1,6 +1,6 @@
 package ua.hillel.lozovii.homeworks.hw12;
 
-public class mainFitness {
+public class MainFitness {
     public static void main(String[] args) {
         FitnessTracker human1 = new FitnessTracker("Boris", "Johnson", 19, 6, 1964, "bj@abc.com", "+5968940940", 92, 120, 5400);
         System.out.println(human1.printAccountInfo());
