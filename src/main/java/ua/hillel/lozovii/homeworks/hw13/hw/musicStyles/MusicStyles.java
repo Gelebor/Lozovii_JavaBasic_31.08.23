@@ -6,9 +6,7 @@ public abstract class MusicStyles {
         System.out.println("Music playing...");
     }
 
-    public void style() {
-    }
+    public abstract void style();
 
-    public void getMusicBandName() {
-    }
+    public abstract void getMusicBandName();
 }
