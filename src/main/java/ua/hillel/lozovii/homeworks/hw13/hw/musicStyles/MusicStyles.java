@@ -5,4 +5,10 @@ public abstract class MusicStyles {
     public void playMusic() {
         System.out.println("Music playing...");
     }
+
+    public void style() {
+    }
+
+    public void getMusicBandName() {
+    }
 }

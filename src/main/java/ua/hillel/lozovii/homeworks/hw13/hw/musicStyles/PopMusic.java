@@ -1,7 +1,7 @@
 package ua.hillel.lozovii.homeworks.hw13.hw.musicStyles;
 
 public class PopMusic extends MusicStyles {
-    private String musicBandName;
+    private final String musicBandName;
 
     public PopMusic(String musicBandName) {
         super();
@@ -14,5 +14,10 @@ public class PopMusic extends MusicStyles {
 
     public void getMusicBandName() {
         System.out.println(musicBandName);
+    }
+
+    @Override
+    public void playMusic() {
+        System.out.println(this.musicBandName + " (Pop) music playing...");
     }
 }

@@ -15,4 +15,9 @@ public class ClassicMusic extends MusicStyles {
     public void getMusicBandName() {
         System.out.println(musicBandName);
     }
+
+    @Override
+    public void playMusic() {
+        System.out.println(this.musicBandName + " (Classic) music playing...");
+    }
 }

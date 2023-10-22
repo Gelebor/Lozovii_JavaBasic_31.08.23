@@ -13,20 +13,17 @@ public class Main {
 //    За допомогою методу for each викличте у всіх спадкоємців MusicStyles метод playMusic()
 
     public static void main(String[] args) {
-        PopMusic team1Pop = new PopMusic("The Beatles");
-        RockMusic team2Rock = new RockMusic("AC/DC");
-        ClassicMusic team3Classic = new ClassicMusic("Mozart");
+        MusicStyles[] bands = {
+                new PopMusic("The Beatles"),
+                new RockMusic("AC/DC"),
+                new ClassicMusic("Mozart")
+        };
 
-        team1Pop.playMusic();
-        team2Rock.playMusic();
-        team3Classic.playMusic();
-
-        team1Pop.style();
-        team2Rock.style();
-        team3Classic.style();
-
-        team1Pop.getMusicBandName();
-        team2Rock.getMusicBandName();
-        team3Classic.getMusicBandName();
+        for (MusicStyles band : bands) {
+            System.out.println(" ");
+            band.playMusic();
+            band.style();
+            band.getMusicBandName();
+        }
     }
 }
