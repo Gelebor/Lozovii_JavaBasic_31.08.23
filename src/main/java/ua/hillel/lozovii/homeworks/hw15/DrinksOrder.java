@@ -16,9 +16,10 @@ class Drinks {
 }
 
 public class DrinksOrder {
+    static double totalCost = 0.0;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double totalCost = 0.0;
 
         while (true) {
             System.out.println("Оберіть напій (coffee, tea, lemonade, mojito, soda, coca_cola) або 'exit' для завершення замовлення: ");
