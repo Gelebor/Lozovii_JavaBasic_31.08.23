@@ -71,7 +71,6 @@ public class DrinksOrder {
         System.out.println("Загальна вартість: " + totalCost + " грн.");
     }
 
-    // Методи для приготування напоїв
     private static void makeCoffee() {
         System.out.println("Готуємо каву...");
     }
