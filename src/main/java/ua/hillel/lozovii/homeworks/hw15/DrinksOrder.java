@@ -63,7 +63,7 @@ public class DrinksOrder {
                         System.out.println("Напій не знайдено.");
                 }
             } catch (IllegalArgumentException e) {
-                System.out.println("Обраний напій недоступний");
+                System.out.println("Напій введено невірно!");
             }
 
             totalCost += drinkPrice;
