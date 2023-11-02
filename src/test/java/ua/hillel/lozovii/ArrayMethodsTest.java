@@ -21,7 +21,7 @@ public class ArrayMethodsTest {
                 {1, 2, 3, 4},
                 {1, 2, 3, 4},
                 {1, 2, 3, 4},
-                {1, 2, 3, 4}
+                {1, 2, 3, 4, 1}
         };
         Assertions.assertTrue(ArrayMethods.squareArray(arr1));
     }
@@ -35,7 +35,7 @@ public class ArrayMethodsTest {
                 {1, 2, 3, 4}
         };
         double res = ArrayMethods.averageArray(arr1);
-        Assertions.assertEquals(4, Math.round(res));
+        Assertions.assertEquals(3, Math.round(res));
     }
 
     @Test
