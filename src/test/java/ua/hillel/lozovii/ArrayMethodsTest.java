@@ -34,7 +34,8 @@ public class ArrayMethodsTest {
                 {1, 20, 3, 4},
                 {1, 2, 3, 4}
         };
-        Assertions.assertEquals(3, (int) ArrayMethods.averageArray(arr1));
+        double res = ArrayMethods.averageArray(arr1);
+        Assertions.assertEquals(4, Math.round(res));
     }
 
     @Test
@@ -45,6 +46,7 @@ public class ArrayMethodsTest {
                 {1, 2, 3, 4},
                 {1, 2, 3, 4}
         };
-        Assertions.assertEquals(2, (int) ArrayMethods.averageArray(arr1));
+        double res = ArrayMethods.averageArray(arr1);
+        Assertions.assertEquals(3, Math.round(res));
     }
 }
