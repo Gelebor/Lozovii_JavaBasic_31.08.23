@@ -2,7 +2,7 @@ package ua.hillel.lozovii;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ua.hillel.lozovii.homeworks.ArrayMethods;
+import ua.hillel.lozovii.homeworks.hw16.ArrayMethods;
 
 public class ArrayMethodsTest {
     @Test

@@ -1,4 +1,4 @@
-package ua.hillel.lozovii.homeworks;
+package ua.hillel.lozovii.homeworks.hw16;
 
 public class ArrayMethods {
     //    Додайте метод, який буде рахувати середнє арифметичне елементів масиву.
