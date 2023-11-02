@@ -34,9 +34,7 @@ public class ArrayMethodsTest {
                 {1, 20, 3, 4},
                 {1, 2, 3, 4}
         };
-
-        int roundAverage = (int) ArrayMethods.averageArray(arr1);
-        Assertions.assertEquals(3, roundAverage);
+        Assertions.assertEquals(3, (int) ArrayMethods.averageArray(arr1));
     }
 
     @Test
@@ -47,8 +45,6 @@ public class ArrayMethodsTest {
                 {1, 2, 3, 4},
                 {1, 2, 3, 4}
         };
-
-        int roundAverage = (int) ArrayMethods.averageArray(arr1);
-        Assertions.assertEquals(2, roundAverage);
+        Assertions.assertEquals(2, (int) ArrayMethods.averageArray(arr1));
     }
 }
