@@ -1,6 +1,6 @@
 package ua.hillel.lozovii.homeworks.hw1;
 
-public class HelloWorld {
+public class Main {
     //psvm (method);
     public static void main(String[] args) {
         //sout;
